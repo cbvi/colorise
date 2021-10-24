@@ -1,0 +1,2 @@
+#/bin/sh
+tail -f -n +0 irclogs/OFTC/\#tor-dev.log | ./colorise `cat .talkingoffset`
